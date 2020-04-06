@@ -1,0 +1,47 @@
+.container-1{
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 75%;
+    text-align: center;
+}
+
+.flex-black-jack-row1, .flex-black-jack-row2, .flex-black-jack-row3{
+border: 1px solid black;
+display: flex;
+padding: 10px;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+
+.flex-black-jack-row1, .flex-black-jack-row2 {
+    background: url('../images/table2.jpg') center;
+    color: white;
+}
+
+.flex-black-jack-row1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-black-jack-row1 div{
+    padding: 10px;
+    text-align: center;
+    height: 350px;
+    flex: 1;
+}
+
+.flex-black-jack-row2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-black-jack-row2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
